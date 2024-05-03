@@ -28,8 +28,8 @@ async def startcmd(client, message):
         if not is_participant:
             return
     await message.reply_photo(
-        photo="https://telegra.ph/file/595e38a4d76848c01b110.jpg",
-        caption=f"<b>Jai Shree Krishna {userMention},\n\nIᴍ Hᴇʀᴇ Tᴏ Rᴇᴅᴜᴄᴇ Yᴏᴜʀ Pʀᴏʙʟᴇᴍs..\nYᴏᴜ Cᴀɴ Usᴇ Mᴇ As ʏᴏᴜʀ Pʀɪᴠᴀᴛᴇ Assɪsᴛᴀɴᴛ..\nAsᴋ Mᴇ Aɴʏᴛʜɪɴɢ...Dɪʀᴇᴄᴛʟʏ..\n\nMʏ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/biisal>Bɪɪsᴀʟ</a>\nMʏ Lᴏᴠᴇʀ : <a href=tg://settings/>Tʜɪs Pᴇʀsᴏɴ</a></b>",
+        photo="https://graph.org/file/829efa63f4b210d2944c2.jpg",
+        caption=f"<b> ʜᴇʏ {userMention},\n\nIᴍ Hᴇʀᴇ Tᴏ Rᴇᴅᴜᴄᴇ Yᴏᴜʀ Pʀᴏʙʟᴇᴍs..\nYᴏᴜ Cᴀɴ Usᴇ Mᴇ As ʏᴏᴜʀ Pʀɪᴠᴀᴛᴇ Assɪsᴛᴀɴᴛ..\nAsᴋ Mᴇ Aɴʏᴛʜɪɴɢ...Dɪʀᴇᴄᴛʟʏ..\n\nMʏ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/ifeelscam>sʜᴀɪᴋʜ ᴀʟɪ</a>\nMʏ Lᴏᴠᴇʀ : <a href=tg://settings/>Tʜɪs Pᴇʀsᴏɴ</a></b>",
     )
     return
 
@@ -45,13 +45,13 @@ async def ai_res(message, query):
             api_response = response_json.get("response")
             if len(query) <= 280:
                 await message.reply_text(
-                    text=f"<b>ᴊᴀɪ sʜʀᴇᴇ ᴋʀɪsʜɴᴀ {userMention}\nʏᴏᴜʀ ǫᴜᴇʀʏ : <code>{query}</code>\n\n{BOT_NAME} :\n{api_response}</b>",
+                    text=f"<b>ʏᴏᴜʀ ǫᴜᴇʀʏ : <code>{query}</code>\n\n{BOT_NAME} :\n{api_response}</b>",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
                                 InlineKeyboardButton(
-                                    "sᴛᴀʀᴛ ᴍᴇ 🚩",
-                                    url=f"https://t.me/bisal_gpt_bot?start=z",
+                                    "ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ",
+                                    url=f"https://t.me/Publicfille",
                                 )
                             ]
                         ]
@@ -61,13 +61,13 @@ async def ai_res(message, query):
             else:
                 cut_query_str = query[:77]
                 await message.reply_text(
-                    text=f"<b>ᴊᴀɪ sʜʀᴇᴇ ᴋʀɪsʜɴᴀ {userMention}\nʏᴏᴜʀ ǫᴜᴇʀʏ : <code>{cut_query_str}</code>\n\n{BOT_NAME} :\n{api_response}</b>",
+                    text=f"<b> ʏᴏᴜʀ ǫᴜᴇʀʏ : <code>{cut_query_str}</code>\n\n{BOT_NAME} :\n{api_response}</b>",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
                                 InlineKeyboardButton(
-                                    "sᴛᴀʀᴛ ᴍᴇ 🚩",
-                                    url=f"https://t.me/bisal_gpt_bot?start=z",
+                                    "ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ",
+                                    url=f"https://t.me/Publicfille",
                                 )
                             ]
                         ]
@@ -97,7 +97,7 @@ async def grp_res(client, message):
     print(grp_query)
     if not grp_query:
         return await message.reply_text(
-            "<b>Abe gadhe /bol k baad kuch likh to le !!.\n\nExample Use:\n<code>/bol Who is lord krshna??</code>\n\nHope you got it.Try it now..</b>"
+            "<b>Abe gadhe /bol k baad kuch likh to le !!.\n\nExample Use:\n<code>/bol What is Matrix ??</code>\n\nHope you got it.Try it now..</b>"
         )
     current_time = time.time()
     coolDownUser = message.from_user.id
@@ -158,8 +158,8 @@ async def broadcasting_func(client, message):
                         [
                             [
                                 InlineKeyboardButton(
-                                    "ᴀᴅᴍɪɴ sᴜᴘᴘᴏʀᴛ 🚩",
-                                    url=f"https://bit.ly/bisal",
+                                    "ᴀᴅᴍɪɴ sᴜᴘᴘᴏʀᴛ ",
+                                    url=f"https://t.me/ifeelscam",
                                 )
                             ]
                         ]
@@ -185,8 +185,8 @@ async def broadcasting_func(client, message):
                             [
                                 [
                                     InlineKeyboardButton(
-                                        "ᴀᴅᴍɪɴ sᴜᴘᴘᴏʀᴛ 🚩",
-                                        url=f"https://bit.ly/bisal",
+                                        "ᴀᴅᴍɪɴ sᴜᴘᴘᴏʀᴛ ",
+                                        url=f"https://t.me/ifeelscam",
                                     )
                                 ]
                             ]
@@ -222,8 +222,8 @@ async def telegraph_upload(client, message):
                 [
                     [
                         InlineKeyboardButton(
-                            "Join 🚩",
-                            url=f"https://t.me/Bisal_Files_Talk",
+                            "ᴊᴏɪɴ sᴜᴘᴘᴏʀᴛ",
+                            url=f"https://t.me/offchats",
                         )
                     ]
                 ]
@@ -271,12 +271,12 @@ async def telegraph_upload(client, message):
         except Exception:
             pass
         text = await message.reply_text(
-            f"<b>Jai Shree Krishna {message.from_user.mention()},\nWᴀɪᴛ...😎</b>",
+            f"<b>ᴅᴇᴀʀ {message.from_user.mention()},\nWᴀɪᴛ...😎</b>",
             disable_web_page_preview=True,
         )
         media = await replied.download()
         await text.edit_text(
-            f"<b>Jai Shree Krishna {message.from_user.mention()},\nNᴏᴡ Iᴍ ᴄʜᴇᴄᴋɪɴɢ ʏᴏᴜʀ ɪᴍᴀɢᴇ...🤔</b>",
+            f"<b>ᴅᴇᴀʀ {message.from_user.mention()},\nNᴏᴡ Iᴍ ᴄʜᴇᴄᴋɪɴɢ ʏᴏᴜʀ ɪᴍᴀɢᴇ...🤔</b>",
             disable_web_page_preview=True,
         )
         try:
@@ -299,12 +299,12 @@ async def telegraph_upload(client, message):
                 response_json = res.json()
                 airesponse = response_json.get("response")
             await text.edit_text(
-                text=f"<b>Jai Shree Krishna {message.from_user.mention()},\n\n•{airesponse}</b>",
+                text=f"<b>ʜᴇʏ {message.from_user.mention()},\n\n•{airesponse}</b>",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
-                                "sᴛᴀʀᴛ ᴍᴇ 🚩", url=f"https://t.me/bisal_gpt_bot?start=z"
+                                "ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/publicfille"
                             )
                         ]
                     ]
