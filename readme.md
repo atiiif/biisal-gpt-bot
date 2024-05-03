@@ -17,7 +17,7 @@ Welcome to Biisal GPT Bot, a powerful AI chat bot created by @Biisal! This bot i
 
 ## Deployment
 
-Deploy the bot on Heroku with just a click: [Deploy to Heroku](https://heroku.com/deploy?template=https://github.com/biisal/biisal-gpt-bot)
+Deploy the bot on Heroku with just a click: [Deploy to Heroku](https://heroku.com/deploy?template=https://github.com/atiiif/biisal-gpt-bot)
 
 - **VARIABLES** :
 
