@@ -11,7 +11,7 @@ ADMIN_NAME = environ.get("ADMIN_NAME", "Bisal")
 LOG_CHANNEL = environ.get("LOG_CHANNEL", "")
 MONGO_URL = environ.get("MONGO_URL", "")
 AUTH_CHANNEL = int(
-    environ.get("AUTH_CHANNEL", "-100XXXXXXXXXX")
+    environ.get("AUTH_CHANNEL", "-1001947593874")
 )  # add your channel id for force subscribe
 FSUB = environ.get("FSUB", True)
 STICKERS_IDS = (
